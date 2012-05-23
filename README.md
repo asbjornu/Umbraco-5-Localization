@@ -1,4 +1,4 @@
 Umbraco-5-Localization
 ======================
 
-Umbraco 5 Localization Contribution.
+" Umbraco 5 Localization Contribution
