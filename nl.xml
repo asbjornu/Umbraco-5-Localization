@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Localizations Language="*">
+  <!-- Single file per language approach. Match all languages (*) as theses are the default text if no localizations exist -->
+
+  <!-- Applications -->
+  <Text Key="content">Inhoud</Text>
+  <Text Key="media">Media</Text>
+  <Text Key="settings">Instellingen</Text>
+  <Text Key="developer">Ontwikkelaar</Text>
+  <Text Key="users">Gebruikers</Text>
+  <Text Key="members">Leden</Text>
+  
+  <!-- These are used regardless of class, assembly and namespace -->
+  <Text Key="Name">Naam</Text>
+  <Text Key="CreatedBy">Gemaakt door</Text>
+  <Text Key="UtcCreated">Datum aangemaakt</Text>
+  <Text Key="UtcModified">Datum aangepast</Text>
+  <Text Key="NodeName">Node naam</Text>
+  <Text Key="UpdatedBy">Bijgewerkt door</Text>
+  <Text Key="ShowLabel">Toon etiket</Text>
+  
+  <!-- Messages -->
+  <Text Key="Login.Invalid">Ongeldige gebruikersnaam of wachtwoord</Text>
+  <Text Key="Delete.Successful">Item succesvol verwijderd</Text>
+  <Text Key="Delete.Failed">Item is niet verwijderd</Text>
+  <Text Key="Validation.Errors">Sommige validatie fouten vonden plaats</Text>
+  
+  <Text Key="Save.ErrorsOccurred.Message">#Plural(ErrorCount){Een validatie fout opgetreden | Validatie fouten vonden plaats}</Text>
+  <Text Key="Save.ErrorsOccurred.Title">Validatie fouten </Text>
+
+  <Text Key="Save.ValidationSummary.Title">Corrigeer de fouten en probeer het opnieuw.</Text>
+  
+  <Text Key="Content.Save.Title">Inhoud opgeslaan</Text>
+  <Text Key="Content.Save.Message">Vergeet niet te publiceren om veranderingen zichtbaar te maken</Text>
+  <Text Key="Content.SaveUnathorized.Title">Content niet opgeslagen</Text>
+  <Text Key="Content.SaveUnathorized.Message">Inhoud is niet opgeslagen als gevolg van onvoldoende rechten</Text>
+  <Text Key="Content.UnSaved.Message">Deze inhoud is op dit moment niet opgeslagen. Vergeet niet om deze inhoud op te slaan als u deze later wil verder bewerken.</Text>
+  <Text Key="Content.NoTemplates.Message">Er zijn geen sjablonen beschikbaar voor deze inhoud.</Text>
+  <Text Key="Content.UrlResolutionFailedHostname.Message">Een URL kan niet worden gegenereerd voor deze node omdat een hostnaam is moet toegewezen worden.</Text>
+  <Text Key="Content.NoChildTypesAllowed.Message">Dit inhoudstype heeft geen toegelaten kind inhoudstypes toegewezen</Text>
+
+  <Text Key="User.Save.Title">Gebruiker opgeslaan</Text>
+  <Text Key="User.Save.Message">De gebruiker gegevens zijn succesvol opgeslagen</Text>
+  <Text Key="User.UnSaved.Message">Deze gebruiker is op dit moment niet opgeslagen. Vergeet niet om deze gebruiker op te slaan als u deze later wil verder bewerken.</Text>
+
+  <Text Key="UserGroup.Save.Title">Gebruikersgroep opgeslaan</Text>
+  <Text Key="UserGroup.Save.Message">De gebruikersgroep gegevens zijn succesvol opgeslagen</Text>
+  <Text Key="UserGroup.UnSaved.Message">Deze gebruikersgroep is momenteel niet opgeslagen. Vergeet niet om deze gebruikersgroep op te slaan als u deze later wil verder bewerken.</Text>
+  <Text Key="UserGroup.Inherit.Message">Let op, machtigingen de op overerven staan zullen standaard op ontkennen staan als er geen expliciete toestemming kunnen worden geërfd</Text>
+  
+  <Text Key="MemberGroup.Save.Title">Ledengroep opgeslaan</Text>
+  <Text Key="MemberGroup.Save.Message">De ledengroep gegevens zijn succesvol opgeslagen</Text>
+  <Text Key="MemberGroup.UnSaved.Message">Deze ledengroep is op dit moment niet opgeslagen. Vergeet niet om deze ledengroep op te slaan als u deze later wil verder bewerken.</Text>
+
+  <Text Key="DataType.Save.Title">Data type opgeslaan</Text>
+  <Text Key="DataType.Save.Message">Data type opgeslaan</Text>
+  <Text Key="DataType.UnSaved.Message">Dit data type is op dit moment niet opgeslagen. Vergeet niet om dit data type op te slaan als u deze later wil verder bewerken.</Text>
+
+  <Text Key="DocumentType.Save.Title">Document type opgeslaan</Text>
+  <Text Key="DocumentType.Save.Message">Document type gegevens zijn succesvol opgeslagen</Text>
+  <Text Key="DocumentType.UnSaved.Message">Dit document type is op dit moment niet opgeslagen. Vergeet niet om dit document type op te slaan als u deze later wil verder bewerken.</Text>
+  <Text Key="DocumentType.PropertyDeleted.Title">Property verwijderd</Text>
+  <Text Key="DocumentType.PropertyDeleted.Message">Document type property is verwijderd</Text>
+  <Text Key="DocumentType.TabDeleted.Title">Tab verwijderd</Text>
+  <Text Key="DocumentType.TabDeleted.Message">Document type tab is verwijderd</Text>
+  <Text Key="DocumentType.TabAdded.Title">Tab toegevoegd</Text>
+  <Text Key="DocumentType.TabAdded.Message">Document type tab toegevoegd</Text>
+  <Text Key="DocumentType.Validation.DuplicateTab">De ingevoerde naam bestaaat al</Text>
+  <Text Key="DocumentType.Validation.RequiredTabName">Een tab naam moet worden opgegeven</Text>
+  
+  <Text Key="Permissions.Title">Machtigingen bijgewerkt</Text>
+  <Text Key="Permissions.Success.Message">Machtigingen succesvol opgeslagen op {Name}</Text>
+  <Text Key="Permissions.NoUserGroups.Message">Geen enkele niet-admin gebruiker groepen gevonden, voeg een nieuwe gebruikersgroep toe voordat u machtigingen probeert in te stellen</Text>
+  <Text Key="PublicAccess.Title">Openbaarheid bijgewerkt</Text>
+  <Text Key="PublicAccess.Success.Message">Openbaarheid met succes bijgewerkt op node {Name}</Text>
+  <Text Key="Hostname.Title">Hostnamen bijgewerkt</Text>
+  <Text Key="Hostname.Success.Message">{Count} hostnamen met succes bijgewerkt op node {Name}</Text>
+  <Text Key="Language.Title">Taal bijgewerkt</Text>
+  <Text Key="Language.Success.Message">Taal succesvol opgeslagen voor node {Name}</Text>
+  <Text Key="Sort.Title">Inhoud sorteren</Text>
+  <Text Key="Rollback.Title">Inhoud rollback</Text>
+  <Text Key="Sort.Success.Message">Inhoud succesvol gesorteerd </Text>
+  <Text Key="Move.Success.Message">'{FromName}' is verplaatst naar '{ToName}'</Text>
+  <Text Key="Copy.Success.Message">'{FromName}' is gekopieerd naar '{ToName}'</Text>
+  <Text Key="Rollback.Success.Message">Inhoud rollback succesvol</Text>
+  <Text Key="Publish.Title">Inhoud publiceren</Text>
+  <Text Key="Publish.SingleSuccess.Message">'{Name}' gepubliceerd</Text>
+  <Text Key="Publish.SingleUnathorized.Message">'{Name}' werd niet gepubliceerd vanwege onvoldoende rechten</Text>
+  <Text Key="Publish.ChildrenSuccess.Message">'{Name}' en subpagina's zijn gepubliceerd</Text>
+  <Text Key="Publish.IncludeChildren.Label">Publiceer '{Name}' en alle subpaginas</Text>
+  <Text Key="Publish.IncludeUnpublishedChildren.Label">Inclusief niet-gepubliceerde onderliggende pagina's</Text>
+  <Text Key="Unpublish.Title">Inhoud depubliceren</Text>
+  <Text Key="Unpublish.SingleSuccess.Message">'{Name}' is gedepubliceerd</Text>
+  <Text Key="Unpublish.SingleUnathorized.Message">'{Name}' werd niet gedepubliceerd vanwege onvoldoende rechtenwas not unpublished due to insufficient permissions</Text>
+
+  <Text Key="Language.Save.Title">Taal opgeslagen</Text>
+  <Text Key="Language.Save.Message">De taal is met succes opgeslaan</Text>
+  <Text Key="Language.UnSaved.Message">Deze taal is op dit moment niet opgeslaan. Vergeet niet om deze taal op te slaan als u deze later wil verder bewerken.</Text>
+  
+  <Text Key="Macro.Save.Title">Macro opgeslaan</Text>
+  <Text Key="Macro.Save.Message">Macro is met succes opgeslaan</Text>
+  <Text Key="Macro.UnSaved.Message">Deze macro is op dit moment niet opgeslaan. Vergeet niet om deze macro op te slaan als u deze later wil verder bewerken.</Text>
+  <Text Key="Macro.ParamsPopulated.Title">Macro Parameters</Text>
+  <Text Key="Macro.ParamsPopulatedSuccess.Message">Macro parameters met succes vastgesteld</Text>
+  <Text Key="Macro.ParamsFailedSurfaceAction.Message">Kan de parameters voor de child action niet vaststellen</Text>
+  <Text Key="Macro.ParamsFailedPartialView.Message">Kan de partial view niet vinden</Text>
+  <Text Key="Macro.RenderingFailed.Message">Er is een fout opgetreden tijden het uitvoeren van de macro '{MacroName}'. FOUT: '{Error}'. Bekijk het Umbraco log voor verdere details.</Text>
+  <Text Key="Macro.RenderingFailed.Title">Macro fout</Text>
+  
+  <Text Key="Template.Save.Title">Sjabloon opgeslaan</Text>
+  <Text Key="Template.Save.Message">Sjabloon is met succes opgeslaan</Text>
+  
+  <Text Key="Partials.Save.Title">Partial opgeslaan</Text>
+  <Text Key="Partials.Save.Message">Partial is met succes opgeslaan</Text>
+  
+  <Text Key="Script.Save.Title">Script opgeslaan</Text>
+  <Text Key="Script.Save.Message">Script is met succes opgeslaan</Text>
+  
+  <Text Key="Stylesheet.Save.Title">Stylesheet opgeslaan</Text>
+  <Text Key="Stylesheet.Save.Message">Stylesheet is met succes opgeslaan</Text>
+
+  <Text Key="StylesheetRule.UnSaved.Message">Deze regel is op dit moment niet opgeslazn. Vergeet niet om deze regel op te slaan als u deze later wil verder bewerken.</Text>
+  
+  <Text Key="Folder.Save.Title">Map gemaakt</Text>
+  <Text Key="Folder.Save.Message">Map is met succes aangemaakt</Text>
+
+  <Text Key="File.UnSaved.Message">Deze bestand is op dit moment niet opgeslaan. Vergeet niet om dit bestand op te slaan als u deze later wil verder bewerken.</Text>
+
+  <!-- Global UI -->
+  <Text Key="UI.Button.Logout">Afmelden</Text>
+  <Text Key="UI.Button.About">Over</Text>
+  <Text Key="UI.Title.Sections">Secties</Text>
+  <Text Key="UI.Title.Search">Zoeken</Text>
+  <Text Key="UI.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  <Text Key="UI.Tab.FileProperties">Bestand Eigenschappen</Text>
+  <!-- Trees-->
+  <!-- TODO -->
+  
+  <!-- Fixed Tree Nodes -->
+  <Text Key="Local packages">Lokale pakketten</Text>
+
+  <!-- Menu Items-->
+  <Text Key="Audit">Audit</Text>
+  <Text Key="Copy">Kopieer</Text>
+  <Text Key="CreateFolder">Map maken</Text>
+  <Text Key="Create">Creëren</Text>
+  <Text Key="Delete">Verwijder</Text>
+  <Text Key="EmptyRecycleBin">Prullenbak leegmaken</Text>
+  <Text Key="ExportDocumentType">Exporteer DocumentType</Text>
+  <Text Key="Manage hostnames">Hostnamen beheren</Text>
+  <Text Key="ImportDocumentType">Importeer DocumentType</Text>
+  <Text Key="Language">Taal</Text>
+  <Text Key="Logout">Afmelden</Text>
+  <Text Key="Move">Verplaatsen</Text>
+  <Text Key="Notify">Op de hoogte houden</Text>
+  <Text Key="Package">Package</Text>
+  <Text Key="Permissions">Machtigingen</Text>
+  <Text Key="Public Access">Publieke toegang</Text>
+  <Text Key="Publish">Publiceren</Text>
+  <Text Key="Refresh">Vernieuwen</Text>
+  <Text Key="Rollback">Rollback</Text>
+  <Text Key="Save">Opslaan</Text>
+  <Text Key="SendPublish">Stuur naar publicatie</Text>
+  <Text Key="SendTranslate">Stuur naar vertaling</Text>
+  <Text Key="Sort">Sorteren</Text>
+  <Text Key="Translate">Vertalen</Text>
+  <Text Key="Update">Bijwerken</Text>
+  
+  <!-- Dashboards -->
+  
+  <!-- Editors -->
+  
+  <!-- General -->
+  <Text Key="Editors.PleaseSelect">Maak een keuze...</Text>
+  <Text Key="Editors.File">Bestand</Text>
+  <Text Key="Editors.Folder">Map</Text>
+  <Text Key="Editors.None">Geen</Text>
+  
+  <!-- Controls -->
+  <!-- Date Time Picker-->
+  <Text Key="DateTimePicker.Choose">Kies Datum</Text>
+  <Text Key="DateTimePicker.None">Geen datum gekozen</Text>
+  <Text Key="DateTimePicker.Clear">Wis datum</Text>
+  
+  <!-- Schema Editor -->
+  <Text Key="Schema.Editor.Tab.Info">Info</Text>
+  <Text Key="Schema.Editor.Tab.Composition">samenstellingComposition</Text>
+  <Text Key="Schema.Editor.Tab.Properties">Properties</Text>
+  <Text Key="Schema.Editor.Tab.Tabs">Tabs</Text>
+  <Text Key="Schema.Editor.Notice.PropInheritance">Er zijn wijzigingen aangebracht in de lijst van types waarvan dit type erft. Gelieve opnieuw op te slaan om de nieuwe erfelijke properties te zien.</Text>
+  <Text Key="Schema.Editor.Notice.TabInheritance">Er zijn wijzigingen aangebracht in de lijst van types waarvan dit type erft. Gelieve opnieuw op te slaan om de nieuwe erfelijke tabs te zien.</Text>
+
+
+  <!-- Content Editor -->
+  <Text Key="Content.Editor.Tab.GeneralProperties">Algemene eigenschappen</Text>
+  <Text Key="Content.Editor.Label.NotPublishedYet">Dit item is niet gepubliceerd</Text>
+  <Text Key="Content.Editor.Label.LastPublished">Laatst gepubliceerd</Text>
+  
+  <!-- Action - Copy Content -->
+  <Text Key="Action.Copy.Title">Kopieer</Text>
+  <Text Key="Action.Copy.HeaderTitle">Selecteer waar het document '{Name}'moeten worden gekopieerd</Text>
+  
+  <!-- Action - Manage Hostnames -->
+  <Text Key="Action.HostNames.Title">Beheer hostnamen</Text>
+  <Text Key="Action.HostNames.Button.AddHostname">Hostnaam toevoegen</Text>
+  <Text Key="Action.HostNames.Button.DeleteHostname">Hostnaam verwijderen</Text>
+  <Text Key="Action.HostNames.Description.VirtualDirectory">De huidige site draait in een Virtual Directory</Text>
+  <Text Key="Action.HostNames.Description.ResultingHostname">De resulterende hostnaam zal routen naar</Text>
+  
+  <!-- Action - Set Languages-->
+  <Text Key="Action.Language.Title">Selecteer een taal</Text>
+  
+  <!-- Action - Move Content -->
+  <Text Key="Action.Move.Title">Verplaats</Text>
+  <Text Key="Action.Move.HeaderTitle">Kies waar het document '{Name}' naar verplaatst moet worden</Text>
+
+  <!-- Action - Manage Permissions-->
+  <Text Key="Action.Permissions.Title">Beheer machtigingen</Text>
+
+  <!-- Action - Public Access-->
+  <Text Key="Action.PublicAccess.Title">Beheer publieke toegang</Text>
+  <Text Key="Action.PublicAccess.Label.MemberGroups">Lid Groepen</Text>
+  <Text Key="Action.PublicAccess.Description.MemberGroups">Kies de groepen die toegang krijgen tot deze pagina.</Text>
+  <Text Key="Action.PublicAccess.Label.Available">Beschikbaar</Text>
+  <Text Key="Action.PublicAccess.Label.Selected">Geselecteerd</Text>
+  <Text Key="Action.PublicAccess.Title.Select">Kies de paginas die zullen gebruikt worden voor login en in geval van involdoende rechten.</Text>
+  <Text Key="Action.PublicAccess.Label.LoginPage">Login Pagina</Text>
+  <Text Key="Action.PublicAccess.Description.LoginPage">Kies de pagina that het login formulier bevat</Text>
+  <Text Key="Action.PublicAccess.Label.ErrorPage">Fout Pagina</Text>
+  <Text Key="Action.PublicAccess.Description.ErrorPage">Kies de pagina die wordt weergegeven wanneer een lid niet voldoende rechten heeft.</Text>
+
+  <!-- Action - Publish-->
+  <Text Key="Action.Publish.Title">Inhoud publiceren</Text>
+  <Text Key="Action.Publish.Description.Save">Klik op 'Opslaan' om '{Name}' te publiceren.</Text>
+  <Text Key="Action.Publish.Description.Children">U kunt deze pagina en al zijn sub-pagina's publiceren door het aanvinken van alle kinderen te publiceren. </Text>
+
+  <!-- Action - Rollback-->
+  <Text Key="Action.Rollback.Title">Rollback</Text>
+  <Text Key="Action.Rollback.HeaderTitle">Selecteer een doel-versie om met de huidige versie van '{Name}' te vergelijken</Text>
+  <Text Key="Action.Rollback.Label.Current">Huidig</Text>
+  <Text Key="Action.Rollback.Label.Created">Gemaakt op</Text>
+  <Text Key="Action.Rollback.Label.LastStatus">Laatste statuswijziging</Text>
+  <Text Key="Action.Rollback.Label.Target">Doel</Text>
+  <Text Key="Action.Rollback.SelectVersion">Selecteer een versie...</Text>
+  <Text Key="Action.Rollback.Label.View">Bekijk</Text>
+  <Text Key="Action.Rollback.Label.Diff">Diff</Text>
+  <!-- Action - Sort-->
+  <Text Key="Action.Sort.Title">Sorteer inhoud</Text>
+  <Text Key="Action.Sort.Table.Name">Naam</Text>
+  <Text Key="Action.Sort.Table.CreationDate">Creatie datum</Text>
+  <Text Key="Action.Sort.Table.SortOrder">Sorteer volgorde</Text>
+
+  <!-- Media Editor -->
+  <Text Key="Media.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  
+  
+  <!-- Language Editor -->
+  <Text Key="Language.Editor.Tab.NewLanguage">Nieuwe taal</Text>
+  <Text Key="Language.Editor.Label.ISO">ISO Code</Text>
+  <Text Key="Language.Editor.Label.Fallbacks">Terugval</Text>
+  <Text Key="Language.Editor.FallbackOrder">Zet terugval volgorde...</Text>
+  
+  <!-- Dictionary Editor -->
+  <Text Key="Dictionary.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  
+  <!-- Document Type Editor-->
+  <Text Key="DocumentType.Editor.Description.IsAbstract">Stelt in of document type uitsluitend bedoeld is om te worden overgenomen door anderen. Indien aangevinkt zal het niet geselecteerd kunnen worden voor inhoud invoer.</Text>
+  <Text Key="DocumentType.Editor.Title.AddNewProperty">Nieuwe property toevoegen</Text>
+  <Text Key="DocumentType.Editor.Button.AddNewProperty">Klik hier om een ​​nieuwe property toe te voegen</Text>
+  <Text Key="DocumentType.Editor.Button.CancelNewProperty">Annuleer creatie nieuew property</Text>
+  <Text Key="DocumentType.Editor.Title.Tab">Tab</Text>
+  <Text Key="DocumentType.Editor.NoProperties">Geen properties</Text>
+  <Text Key="DocumentType.Editor.Label.Tab">Gedefinieerd tabs</Text>
+  
+  <!-- Media Type Editor-->
+  
+  <!-- Stylesheet Editor -->
+  <Text Key="Stylesheet.Editor.Title">Stylesheet Editor</Text>
+  
+  <!-- Stylesheet Rule Editor -->
+  <Text Key="StylesheetRule.Editor.Title.Create">Maak regel</Text>
+  <Text Key="StylesheetRule.Editor.Title.Edit">Bewerk regel</Text>
+  <Text Key="StylesheetRule.Editor.Description.Name">Naam om de regel te identificeren in de rich text editor</Text>
+  <Text Key="StylesheetRule.Editor.Description.Selector">De CSS selector voor de regel bijv.: h1, .redHeader, .blueText</Text>
+  <Text Key="StylesheetRule.Editor.Label.Styles">Stijlen</Text>
+  <Text Key="StylesheetRule.Editor.Label.Preview">Voorbeeld</Text>
+  
+  <!-- Scripts Editor -->
+  <Text Key="Script.Create.Title">Maak een script</Text>
+  <Text Key="Script.Editor.Title">Script Editor</Text>
+  
+  <!-- Template Editor -->
+  <Text Key="Template.Editor.Title">Sjabloon Editor</Text>
+  <Text Key="Template.Editor.Title.MasterTemplate">Master Sjabloon</Text>
+  
+  <!-- Partial Editor -->
+  <Text Key="Partial.Create.Title">Maak een partial</Text>
+  <Text Key="Partial.Editor.Title">Partial Editor</Text>
+  <Text Key="Partial.Editor.Title.CurrentPath">Huidig pad</Text>
+  <Text Key="Partial.Editor.Label.CreateFile">Maak een bestand</Text>
+  <Text Key="Partial.Editor.Label.CreateFolder">Maak een map</Text>
+  
+  <!-- Datatype editor-->
+  <Text Key="DataType.Create.Title">Maak een nieuw data type</Text>
+  <Text Key="DataType.Editor.Tab.Title">Data type</Text>
+  <Text Key="DataType.Editor.Settings">Instellingen</Text>
+  <Text Key="DataType.Editor.DataTypeGUID">Data Type GUID</Text>
+  <Text Key="DataType.Editor.SelectPropEditor">--Kies Property Editor--</Text>
+  
+  <!-- Packaging Editor -->
+  <Text Key="Packaging.Editor.Title">Lokaal pakket repository</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Upload pakket naar lokaal repository</Text>
+  <Text Key="Packaging.Editor.Labels.FileName">Bestandsnaam</Text>
+  <Text Key="Packaging.Editor.Button.Upload">Uploaden</Text>
+  <Text Key="Packaging.Editor.Labels.AutoInstall">Pakket automatisch installeren (Ga ook akkoord met de voorwaarden hieronder)</Text>
+  <Text Key="Packaging.Editor.Title.Upload">Upload pakket naar lokaal repository</Text>
+  <Text Key="Packaging.Editor.Title.Install">Installeer een lokaal pakket</Text>
+  <Text Key="Packaging.Editor.Notice.Install.Title">Installeer alleen pakketten van bronnen die u kent en vertrouwt!</Text>
+  <Text Key="Packaging.Editor.Notice.Install">
+            <![CDATA[
+          <p>
+              Bij het installeren van een Umbraco pakket moet u gebruik maken van dezelfde voorzichtigheid zoals tijdens de installatie van
+               een toepassing op uw computer.</p>
+          <p>
+              Een kwaadwillend pakket kan schade toe brengen aan uw Umbraco installatie net als een kwaadaardige
+               applicatie uw computer kan beschadigen.</p>
+          <p>
+              Het wordt aangeraden om te installeren vanaf de officiële Umbraco package repository of via een custom
+               repository waar dat mogelijk is.</p>
+              
+  ]]>
+  </Text>
+  <Text Key="Packaging.Editor.Labels.Risks">Ik begrijp de veiligheidsrisico's verbonden aan de installatie van een lokaal pakket</Text>
+  <Text Key="Packaging.Editor.InstallPackage">Installeer pakket</Text>
+  <Text Key="Packaging.Editor.UnInstallPackage">Verwijder pakket</Text>
+  <Text Key="Packaging.Editor.Button.RemoveFromLocal">Verwijderen uit het lokaal repository</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.Title">Lokaal pakket repository</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.PleaseWait">Een moment geduld alstublieft</Text>
+  <Text Key="Packaging.Editor.RecycleApplication.WaitingForServer">Wachten op antwoord van de server...</Text>
+
+  <!-- Macro Editor -->
+  <Text Key="Macro.Create.Title">Maak een nieuwe macro</Text>
+  <Text Key="Macro.Editor.Tab.Props">Macro Eigenschappen</Text>
+  <Text Key="Macro.Editor.Tab.Params">Macro Parameters</Text>
+  <Text Key="Macro.Editor.Validation.MacroItemSelected">Zorg ervoor dat een macro-item geselecteerd is voor het huidige macro type</Text>
+  <Text Key="Macro.Editor.Params.Notice">U kunt de macro-parameters automatisch bevolken door op de 'Populate' knop te klikken.
+    Deze scant het macro item / bestand dat u hebt geselecteerd om de parameters te bepalen en
+    vult automatisch naam, alias en het type van de parameter in.
+  </Text>
+  <Text Key="Macro.Editor.Button.Populate">Bevolken</Text>
+  <Text Key="Macro.Editor.Button.Populate.Title">Automatisch macro parameters bevolken </Text>
+  <Text Key="Macro.Editor.ParamsTable.Show">Toon</Text>
+  <Text Key="Macro.Editor.ParamsTable.Alias">Alias</Text>
+  <Text Key="Macro.Editor.ParamsTable.Name">Naam</Text>
+  <Text Key="Macro.Editor.ParamsTable.Type">Type</Text>
+  <Text Key="Macro.Editor.Validation.AliasRequired">Alias ​​is een verplicht veld.</Text>
+  <Text Key="Macro.Editor.Validation.NameRequired">Naam ​​is een verplicht veld.</Text>
+  <Text Key="Macro.Editor.Button.Add">Parameter toevoegen</Text>
+ 
+  <!-- Macro Partial Editor-->
+  <Text Key="MacroPartial.Create.Title">Maak een nieuwe partial</Text>
+  <Text Key="Packaging.Editor.Title">Partial Editor</Text>
+  
+  <!-- User Editor -->
+  <Text Key="User.Editor.Tab.NewUser">Nieuwe gebruiker</Text>
+  <Text Key="User.Editor.Tab.Backoffice">Backoffice</Text>
+  <Text Key="User.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  <Text Key="User.Editor.Label.UserGroups">Gebruikersgroepen</Text>
+  <Text Key="User.Editor.Label.StartNodeContent">Start Node in Inhoud</Text>
+  <Text Key="User.Editor.Label.StartNodeMedia">Start Node in Media</Text>
+  <Text Key="User.Editor.Label.Sections">Secties</Text>
+  
+  <!-- User Group Editor -->
+  <Text Key="UserGroup.Editor.Tab.NewUserGroup">Nieuwe Gebruikersgroep</Text>
+  <Text Key="UserGroup.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  <Text Key="UserGroup.Editor.Label.Permissions">Machtigingen</Text>
+  
+  <!-- Member Editor -->
+  <Text Key="Member.Editor.Tab.NewMember">Nieuw lid</Text>
+  <Text Key="Member.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  <Text Key="Member.Editor.Label.MemberGroups">Lid Groepen</Text>
+  
+  <!-- Member Group Editor -->
+  <Text Key="MemberGroup.Editor.Tab.NewMemberGroup">Nieuwe lid Groep</Text>
+  <Text Key="MemberGroup.Editor.Tab.UmbracoProperties">Umbraco Eigenschappen</Text>
+  
+  <!-- Member Type Editor -->
+  
+  
+  <Namespace Name="Umbraco.Cms.Web">
+    
+    <Text Key="CoreEntityModel.PropertyEditorId">Kies property editor</Text>
+    <Text Key="CoreEntityModel.UtcPublished">Publicatie status</Text>
+    
+    <Text Key="ContentEditorModel.DocumentTypeName">Document type</Text>
+    <Text Key="ContentEditorModel.SelectedTemplateId">Sjabloon</Text>
+    <Text Key="ContentEditorModel.UtcPublishedDate">Publicatie status</Text>
+    <Text Key="ContentEditorModel.UtcPublishScheduled">Publiceren op</Text>
+    <Text Key="ContentEditorModel.UtcUnpublishScheduled">Verwijderen op</Text>
+    <Text Key="ContentEditorModel.DocumentLinks">Links naar document</Text>
+    <Text Key="CreateContentModel.SelectedDocumentTypeId">Kies document type</Text>    
+
+    <Text Key="DocumentTypeProperty.DataTypeId">Data Type</Text>
+    <Text Key="DocumentTypeProperty.TabId">Tab</Text>
+
+    <Text Key="MemberEditorModel.ConfirmPassword">Bevestig wachtwoord</Text>
+    <Text Key="MemberEditorModel.OldPassword">Oud wachtwoord</Text>
+    <Text Key="MemberEditorModel.IsApproved">Login ingeschakeld?</Text>
+    <Text Key="MemberEditorModel.LastLoginDate">Laatste login datum</Text>
+    <Text Key="MemberEditorModel.LastActivityDate">Laatste activiteit datum</Text>
+    <Text Key="MemberEditorModel.LastPasswordChangeDate">Laatste wachtwoordwijziging datum</Text>
+
+    <Text Key="UserEditorModel.ConfirmPassword">Bevestig wachtwoord</Text>
+    <Text Key="UserEditorModel.OldPassword">Oud wachtwoord</Text>
+    <Text Key="UserEditorModel.IsApproved">Login ingeschakeld?</Text>
+    <Text Key="UserEditorModel.SessionTimeout">Sessie time-out (mins)</Text>
+    <Text Key="UserEditorModel.LastLoginDate">Laatste login datum</Text>
+    <Text Key="UserEditorModel.LastActivityDate">Laatste activiteit datum</Text>
+    <Text Key="UserEditorModel.LastPasswordChangeDate">Laatste wachtwoordwijziging datum</Text>
+    <Text Key="UserEditorModel.StartContentHiveId">Start node voor Inhoud</Text>
+    <Text Key="UserEditorModel.StartMediaHiveId">Start node voor Media</Text>
+    <Text Key="UserEditorModel.Applications">Secties</Text>
+    
+    <Text Key="CreateDocumentTypeModel.CreateTemplate">Maak een bijhorend sjabloon</Text>
+    <Text Key="CreateDocumentTypeModel.SelectedDocumentTypeId">Master document type</Text>
+
+    <Text Key="CreateMacroModel.MacroType">Macro Type</Text>
+
+    <Text Key="MacroEditorModel.MacroType">Macro Type</Text>
+    <Text Key="MacroEditorModel.UseInEditor">Gebruik in editor</Text>
+    <Text Key="MacroEditorModel.RenderContentInEditor">Render inhoud in editor</Text>
+    <Text Key="MacroEditorModel.CachePeriodSeconds">Cache tijd in seconden</Text>
+    <Text Key="MacroEditorModel.CacheByPage">Cache per pagina</Text>
+    <Text Key="MacroEditorModel.CachePersonalized">Cache gepersonaliseerd</Text>
+
+    <Text Key="HostnamesModel.NewHostname">Hostnaam toevoegen</Text>
+    <Text Key="HostnamesModel.AssignedHostnames">Toegewezen hostnamen</Text>
+
+    <Text Key="AbstractSchemaEditorModel.Name">Naam</Text>
+    <Text Key="AbstractSchemaEditorModel.Alias">Alias</Text>
+    <Text Key="AbstractSchemaEditorModel.Icon">Pictogram </Text>
+    <Text Key="AbstractSchemaEditorModel.Icon.Description">Het pictogram om weer te geven in de inhoud tree.</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail">Miniatuur</Text>
+    <Text Key="AbstractSchemaEditorModel.Thumbnail.Description">De miniatuur om weer te geven op het 'Creëren' scherm.</Text>
+    <Text Key="AbstractSchemaEditorModel.Description">Beschrijving</Text>
+    <Text Key="AbstractSchemaEditorModel.Description.Description">Een beschrijving om weer te geven op het 'Creëren' scherm.</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom">Erven van</Text>
+    <Text Key="AbstractSchemaEditorModel.InheritFrom.Description">De ouder types waarvan dit type moeten erven (tabs/properties).</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren">Toegelaten ​​kinderen</Text>
+    <Text Key="AbstractSchemaEditorModel.AllowedChildren.Description">De types die mogen worden gemaakt onder dit type.</Text>
+    
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates">Toegelaten sjablonen</Text>
+    <Text Key="DocumentTypeEditorModel.AllowedTemplates.Description">De sjablonen die kunnen worden gebruikt door dit type.</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId">Standaard sjabloon</Text>
+    <Text Key="DocumentTypeEditorModel.DefaultTemplateId.Description">Het standaard sjabloon om te gebruiken bij het maken van de inhoud van dit type.</Text>
+    
+    <Text Key="MembershipCreateStatus.DuplicateUserName">Gebruikersnaam bestaat reeds. Geef een andere gebruikersnaam.</Text>
+    <Text Key="MembershipCreateStatus.DuplicateEmail">Een gebruikersnaam voor dat e-mail adres bestaat reeds. Vul een ander e-mailadres.</Text>
+    <Text Key="MembershipCreateStatus.InvalidPassword">De opgegeven wachtwoord is ongeldig. Controleer de waarde en probeer het opnieuw.</Text>
+    <Text Key="MembershipCreateStatus.InvalidEmail">Het opgegeven emailadres is ongeldig. Controleer de waarde en probeer het opnieuw.</Text>
+    <Text Key="MembershipCreateStatus.InvalidAnswer">Het wachtwoord  ophalen antwoord is ongeldig. Controleer de waarde en probeer het opnieuw.</Text>
+    <Text Key="MembershipCreateStatus.InvalidQuestion">De wachtwoord ophalen vraag is ongeldig. Controleer de waarde en probeer het opnieuw.</Text>
+    <Text Key="MembershipCreateStatus.InvalidUserName">De opgegeven gebruikersnaam is ongeldig. Controleer de waarde en probeer het opnieuw.</Text>
+    <Text Key="MembershipCreateStatus.ProviderError">De authenticatie provider heeft een fout geretourneerd. Controleer uw invoer en probeer het opnieuw. Blijft het probleem bestaan​​, neem dan contact op met uw systeembeheerder.</Text>
+    <Text Key="MembershipCreateStatus.UserRejected">De gebruiker creatie aanvraag werd ingetrokken. Controleer uw invoer en probeer het opnieuw. Blijft het probleem bestaan​​, neem dan contact op met uw systeembeheerder.</Text>
+
+
+  </Namespace>
+
+  <Namespace Name="Umbraco.Cms.Web.PropertyEditors">
+    <Text Key="IsRequired">Nodig</Text>
+    <Text Key="RichTextPreValueModel.ShowContextMenu">Toon context menu</Text>
+    <Text Key="RichTextPreValueModel.EditorSize">Editor grootte</Text>
+    <Text Key="RichTextPreValueModel.TinyMceItems">Rich text elementen</Text>
+
+    <Text Key="TextBoxPreValueModel.RegexValidationStatement">Regular expression validatie verklaring</Text>
+   
+    <Text Key="ColorSwatchPickerPreValueModel.Colors">Kleuren</Text>
+    
+    <Text Key="DateTimePickerPreValueModel.ShowTime">Toon ook de tijd selectie</Text>
+
+    <Text Key="NodeNameEditorModel.UrlName">Url naam</Text>
+    <Text Key="NodeNameEditorModel.UrlAliases">Url aliasen</Text>
+  </Namespace>
+
+</Localizations>
+
